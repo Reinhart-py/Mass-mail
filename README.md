@@ -1,30 +1,25 @@
 # Mass-mail
 
-A lightweight, scalable mass mailing solution utilizing Gmail, Google Sheets, and Google Apps Script. It parses recipient data, dynamically attaches files directly from Google Drive, and processes emails sequentially.
+A simple tool to send mass emails using Gmail, Google Sheets, and Google Apps Script. It reads your list of emails, adds files straight from your Google Drive, and sends the emails one by one.
 
-## Resources
+## Setup Guide
 
-* [Download Template CSV](https://github.com/Reinhart-py/Mass-mail/blob/main/example-sheet.csv) *(Click the "Download raw file" ⬇️ icon at the top right)*
-* [Mass-mail Apps Script Template](https://docs.google.com/spreadsheets/d/1AGeYhFCQQodMyJ8e7AmXXQig3ap-ZVTIweT0S3uoljc/copy)
+1. **Copy the Template:** 
+   Click here to make your copy: [Mass-mail Template](https://docs.google.com/spreadsheets/d/1AGeYhFCQQodMyJ8e7AmXXQig3ap-ZVTIweT0S3uoljc/copy)
+2. **Add Your Data:** 
+   Fill the sheet with your email details. Make sure any files you want to attach are already saved in your Google Drive.
+3. **Add the Sheet Link:** 
+   In your new Google Sheet, click **Extensions > Apps Script** at the top. Find the `sheetUrl` line at the top of the code and paste your new Google Sheet's web link there.
+4. **Send Emails:** 
+   Select `processMailQueue` at the top of the script page and click **Run**. The first time you do this, Google will ask for permission to use your Gmail and Drive.
 
-## Setup & Execution
+## How to Fill the Sheet
 
-1. **Prepare Data:** 
-   Download the CSV template and import it into a new Google Sheet. Populate the columns adhering strictly to the structure below. All referenced attachments must exist in your Google Drive.
-2. **Deploy Script:** 
-   Open the Apps Script Template link above. On the left-hand sidebar, click the **Overview (i)** icon. Then, click the **Make a copy** icon in the top right corner to clone the script into your own Google Workspace.
-3. **Configure:** 
-   In your cloned script, update the `sheetUrl` variable with the full URL of your newly created Google Sheet.
-4. **Execute:** 
-   Select the `processMailQueue` function and click **Run**. Initial execution requires OAuth authorization for Gmail and Drive access.
+Start your data on row 2. Keep row 1 for the headers.
 
-## Data Structure
-
-Data must begin on row 2. Row 1 is reserved for headers.
-
-| Column | Description |
+| Column | What it does |
 | :--- | :--- |
-| **A** | Target Email Address |
-| **B** | Subject Line |
-| **C** | Email Body (Supports standard multi-line formatting) |
-| **D** | Exact Attachment File Name (e.g., `document.pdf`) |
+| **A** | The email address you are sending to |
+| **B** | The subject of the email |
+| **C** | The main message (you can use multiple lines) |
+| **D** | The exact name of the file in your Drive (example: `document.pdf`) |
