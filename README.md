@@ -5,7 +5,7 @@ A simple tool to send mass emails using Gmail, Google Sheets, and Google Apps Sc
 ## Setup Guide
 
 1. **Copy the Template:** 
-   Click here to make your copy: [Mass-mail Template](https://docs.google.com/spreadsheets/d/1AGeYhFCQQodMyJ8e7AmXXQig3ap-ZVTIweT0S3uoljc/copy)
+   Click here to make your copy: [Mass-mail Template](https://docs.google.com/spreadsheets/d/1AGeYhFCQQodMyJ8e7AmXXQig3ap-ZVTIweT0S3uoljc/copy) and yes this is your own , which no one else can see unless you share with them
 2. **Add Your Data:** 
    Fill the sheet with your email details. Make sure any files you want to attach are already saved in your Google Drive.
 3. **Add the Sheet Link:** 
