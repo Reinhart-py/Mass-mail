@@ -7,7 +7,7 @@ A lightweight, scalable mass mailing solution utilizing Gmail, Google Sheets, an
 * [Download Template CSV](https://github.com/Reinhart-py/Mass-mail/raw/main/example-sheet.csv)
 * [1-Click Script Deployment](https://script.google.com/d/1cY59mzmrpUJiFMPPQjO4NF2LmSLFIghc-Vnh3AL1-D0dHe5vsNXb4ett/copy)
 
-*(Note: Replace `YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME` with your repo details, and `YOUR_SCRIPT_ID` with the ID of your published standalone script set to "Anyone with the link can view").*
+
 
 ## Setup & Execution
 
