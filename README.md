@@ -5,16 +5,16 @@ A lightweight, scalable mass mailing solution utilizing Gmail, Google Sheets, an
 ## Resources
 
 * [Download Template CSV](https://github.com/Reinhart-py/Mass-mail/blob/main/example-sheet.csv) *(Click the "Download raw file" ⬇️ icon at the top right)*
-* [1-Click Script Deployment](https://script.google.com/d/1cY59mzmrpUJiFMPPQjO4NF2LmSLFIghc-Vnh3AL1-D0dHe5vsNXb4ett/copy)
+* [Mass-mail Apps Script Template](https://script.google.com/d/1cY59mzmrpUJiFMPPQjO4NF2LmSLFIghc-Vnh3AL1-D0dHe5vsNXb4ett/edit?usp=sharing)
 
 ## Setup & Execution
 
 1. **Prepare Data:** 
    Download the CSV template and import it into a new Google Sheet. Populate the columns adhering strictly to the structure below. All referenced attachments must exist in your Google Drive.
 2. **Deploy Script:** 
-   Click the 1-Click deployment link above to clone the script into your Google Workspace.
+   Open the Apps Script Template link above. On the left-hand sidebar, click the **Overview (i)** icon. Then, click the **Make a copy** icon in the top right corner to clone the script into your own Google Workspace.
 3. **Configure:** 
-   In the cloned script, update the `sheetUrl` variable with the full URL of your newly created Google Sheet.
+   In your cloned script, update the `sheetUrl` variable with the full URL of your newly created Google Sheet.
 4. **Execute:** 
    Select the `processMailQueue` function and click **Run**. Initial execution requires OAuth authorization for Gmail and Drive access.
 
