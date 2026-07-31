@@ -1,0 +1,30 @@
+Email Address,Subject Line,Email Body,Attachment File Name
+test1@tensi.org,Test one.,"Hello ,
+
+This is a test email to verify that our email system is working correctly.
+
+If you have received this email, the delivery was successful.
+
+Thank you.
+
+Best regards,
+{Your Name}
+",634.pdf
+test2704@tensi.org,Test two.,"Hi ,
+
+This is a test message sent to confirm that our email service is functioning as expected.
+
+No action is required.
+
+Regards,
+{Your Name}
+",hsisj
+test36@tensi.org,Test three.,"Hello ,
+
+This is a sample test email for checking email delivery and formatting.
+
+Please ignore this message.
+
+Thanks,
+{Your Name}
+",596548.pdf
